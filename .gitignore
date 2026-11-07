@@ -1,0 +1,47 @@
+
+# =========================
+# Python / Aria Brain
+# =========================
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Trained AI models
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Private training data
+aria-brain/data/private/
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.log
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+*.key
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+Thumbs.db
